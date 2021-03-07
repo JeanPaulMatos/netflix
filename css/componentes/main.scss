@@ -1,0 +1,43 @@
+.main {
+    
+    background-image: url('../../images/mobile/background-strangers.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+
+    &__container {
+
+        display: flex;
+        justify-content: center;
+        column-gap: 45px;
+        margin-top: 21px;
+
+        &--link {
+            color: $color-blanco;
+            font-weight: 600;
+        }
+
+    }
+
+}
+
+
+
+
+// @media all and (min-width: 375px) {
+
+//     body {
+//         background-color: yellow;
+//     }
+
+
+// }
+// @media all and (min-width: 414px) {
+
+//     body {
+//         background-color: blue;
+//     }
+
+
+// }

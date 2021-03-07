@@ -1,0 +1,33 @@
+.header {
+
+    padding: 16px 12px 0;
+
+    &__container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &--left {
+            
+        }
+        
+        &--right {
+            
+            display: flex;
+            align-items: center;
+            column-gap: 17px;
+
+            &--search {
+                cursor: pointer;
+            }
+
+            &--avatar {
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+}

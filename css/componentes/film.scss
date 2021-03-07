@@ -1,0 +1,71 @@
+.film {
+
+    &__serie {
+        
+        display: flex;
+        justify-content: center;
+        column-gap: 4px;
+
+        &--logo {
+
+            img {
+                width: 10px;
+            }
+
+        }
+
+        &--title {
+            font-size: 10px;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            padding-top: 1.5px;
+            color: $color-blanco;
+            font-weight: 400;
+        }
+
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 218px;
+        }
+
+    }
+
+    &__category {
+
+        display: flex;
+        justify-content: center;
+        
+        &--list {
+
+            display: flex;
+            
+            &--link {
+                display: flex;
+                padding-right: 5px;
+                font-size: 14px;
+                
+                span {
+                    color: $color-rojo;
+                    padding-right: 6px;
+                }
+                
+                p {
+                    color: $color-blanco;
+                }
+                
+            }
+            
+            &--four {
+                padding-right: 0;
+            }
+
+        }
+
+    }
+
+}

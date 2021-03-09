@@ -49,7 +49,7 @@ $calc: 70px;
         display: block;
         width: 30px;
         height: 4px;
-        background-color: yellow;
+        background-color: $color-rojo;
         opacity: .2;
         border-radius: 0;
     }
@@ -65,7 +65,10 @@ $calc: 70px;
 }
 
 .glider-track {
+    width: auto !important;
     column-gap: 6px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 // .glider-slide {
 //     // min-width: 120px;

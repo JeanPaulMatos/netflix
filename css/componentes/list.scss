@@ -45,6 +45,12 @@ $calc: 70px;
     }
 
     
+    .glider-dots {
+        display: none;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
     .glider-dot {
         display: block;
         width: 30px;
@@ -70,8 +76,8 @@ $calc: 70px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-// .glider-slide {
-//     // min-width: 120px;
-//     width: 50px;
-//     min-width: 0;
-// }
+.glider-slide {
+    min-width: 141px;
+    // width: 50px;
+    // min-width: 0;
+}

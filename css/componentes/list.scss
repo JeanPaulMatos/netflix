@@ -23,7 +23,8 @@ $calc: 35px;
         &--previous,
         &--after {
 
-            visibility: hidden;
+            display: none   ;
+            // visibility: hidden;
             position: absolute;
             border: none;
             width: 10px;
@@ -112,8 +113,9 @@ $calc: 35px;
 
             &--previous,
             &--after {
-                visibility: visible !important;
+                display: block !important;
                 width: 25px;
+                // visibility: visible !important;
             }
 
         }

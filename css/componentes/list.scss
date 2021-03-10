@@ -1,7 +1,20 @@
-$calc: 70px;
-.list {
+$calc: 35px;
+.list,
+.continue,
+.originals,
+.tendencias,
+.worthy,
+.dramas,
+.youth,
+.comedy {
     margin-top: 26px;
     padding-left: 12px;
+
+    &--title {
+        color: $color-blanco;
+        font-size: 17px;
+        font-weight: 600;
+    }
 
     &__container {
 
@@ -10,17 +23,16 @@ $calc: 70px;
         &--previous,
         &--after {
 
-            display: none;
+            visibility: hidden;
             position: absolute;
             border: none;
             width: 10px;
-            // height: 49px;
             cursor: pointer;
             top: calc(50% - #{$calc / 2});
             line-height: 30px;
             text-align: center;
             background: none;
-            opacity: 20%;
+            opacity: 70%;
 
         }
 
@@ -30,11 +42,13 @@ $calc: 70px;
         }
 
         &--previous {
-            left: -30px;
+            left: 0;
+            z-index: 5;
         }
-
+        
         &--after {
             right: 0px;
+            z-index: 5;
         }
 
         &--carousel {
@@ -44,9 +58,8 @@ $calc: 70px;
 
     }
 
-    
     .glider-dots {
-        display: none;
+        visibility: hidden;
         justify-content: flex-end;
         margin-right: 20px;
     }
@@ -67,6 +80,10 @@ $calc: 70px;
     .glider-dot.active {
         opacity: 1;
     }
+
+    .glider-slide-original {
+        min-width: 201px;
+    }
     
 }
 
@@ -78,6 +95,42 @@ $calc: 70px;
 }
 .glider-slide {
     min-width: 141px;
-    // width: 50px;
-    // min-width: 0;
 }
+
+@media all and (min-width: 767px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+
+        &__container {
+
+            &--previous,
+            &--after {
+                visibility: visible !important;
+                width: 25px;
+            }
+
+        }
+    }
+
+    .glider-dots {
+        visibility: visible !important;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+
+    .glider-track {
+        width: fit-content !important;
+        column-gap: 6px;
+        overflow: hidden;
+    }
+    
+
+}
+

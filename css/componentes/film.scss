@@ -11,7 +11,7 @@
 
         &--logo {
 
-            images {
+            img {
                 width: 10px;
             }
 
@@ -21,7 +21,7 @@
             font-size: 10px;
             letter-spacing: 0.1rem;
             text-transform: uppercase;
-            padding-top: 1.5px;
+            padding-top: 2.5px;
             color: $color-blanco;
             font-weight: 400;
         }
@@ -33,7 +33,7 @@
         justify-content: center;
         margin-bottom: 20px;
 
-        images {
+        img {
             width: 218px;
         }
 
@@ -103,7 +103,7 @@
 
             &--icon {
                 
-                images {
+                img {
                     padding: 2px 10px 0 3px;
                 }
 
@@ -119,6 +119,193 @@
             }
 
         }
+
+    }
+
+}
+
+@media all and (min-width: 375px) {
+
+    .main {
+
+        &__container {
+            column-gap: 48px;
+
+            &--link {
+                font-size: 16.5px;
+            }
+
+        }
+
+    }
+
+    .film {
+
+        &__serie {
+
+
+            &--logo {
+
+                img {
+                    width: 11px;
+                }
+
+            }
+
+        }
+
+        &__logo {
+
+            margin-bottom: 20.5px;
+
+            img {
+                width: 230px;
+            }
+
+        }
+
+        &__category {
+
+            column-gap: 4px;
+
+            &--list {
+
+                &--link {
+                    font-size: 14.5px;
+                }
+
+            }
+
+        }
+
+        &__container {
+            column-gap: 22px;
+
+            &--list {
+
+                &--icon {
+                    padding-bottom: 2px;
+                }
+
+            }
+
+            &--play {
+                padding: 10px 12px 8px;
+            }
+
+        }
+
+    }
+
+}
+
+
+@media all and (min-width: 414px) {
+
+    .main {
+
+        &__container {
+            column-gap: 60px;
+
+            &--link {
+                font-size: 17px;
+            }
+
+        }
+
+    }
+
+    .film {
+
+        &__serie {
+
+            &--title {
+                padding-top: 4.5px;
+                font-size: 10.5px;
+            }
+
+            &--logo {
+
+                img {
+                    width: 12px;
+                }
+
+            }
+
+        }
+
+        &__logo {
+
+            margin-bottom: 21.5px;
+
+            img {
+                width: 260px;
+            }
+
+        }
+
+        &__category {
+
+            column-gap: 10px;
+            margin-bottom: 26.5px;
+
+            &--list {
+
+                &--link {
+                    font-size: 15px;
+                }
+
+            }
+
+        }
+
+        &__container {
+            
+            column-gap: 30px;
+            
+            &--list {
+                
+                
+                &--icon {
+                    
+                    padding-bottom: 2.5px;
+                    
+                    &--check {
+                        width: 16px;
+                    }
+                    
+                    &--info {
+                        width: 19px;
+                    }
+                    
+                }
+                
+                &--title {
+                    font-size: 13.5px;
+                }
+                
+            }
+
+            &--play {
+                padding: 12px 15px 10px;
+
+                &--icon {
+                    
+                    img {
+                        padding: 1px 10px 0 3px;
+                        width: 27px;
+                    }
+
+                }
+
+                &--title {
+                    font-size: 16.5px;
+                }
+
+            }
+
+        }
+
 
     }
 

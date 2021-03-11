@@ -98,6 +98,46 @@ $calc: 35px;
     min-width: 141px;
 }
 
+@media all and (max-width: 375px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+
+        &--title {
+            font-size: 17.5px;
+        }
+
+    }
+
+}
+
+@media all and (min-width: 414px) {
+    
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+
+        margin-top: 26.5px;
+
+        &--title {
+            font-size: 18.5px;
+        }
+
+    }
+
+}
+
 @media all and (min-width: 767px) {
 
     .list,

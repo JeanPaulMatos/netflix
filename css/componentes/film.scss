@@ -100,6 +100,7 @@
             background-color: $color-blanco;
             padding: 10px 10px 8px;
             border-radius: 4px;
+            cursor: pointer;
 
             &--icon {
                 
@@ -125,19 +126,6 @@
 }
 
 @media all and (min-width: 375px) {
-
-    .main {
-
-        &__container {
-            column-gap: 48px;
-
-            &--link {
-                font-size: 16.5px;
-            }
-
-        }
-
-    }
 
     .film {
 
@@ -201,19 +189,6 @@
 
 
 @media all and (min-width: 414px) {
-
-    .main {
-
-        &__container {
-            column-gap: 60px;
-
-            &--link {
-                font-size: 17px;
-            }
-
-        }
-
-    }
 
     .film {
 

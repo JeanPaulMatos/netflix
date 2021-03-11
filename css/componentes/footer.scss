@@ -1,0 +1,110 @@
+.footer {
+
+    width: 92%;
+    margin: auto;
+    margin-top: 25px;
+
+    &__social {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+
+        &--logo {
+
+            &--fb {
+                width: 27px;
+            }
+
+            &--ins {
+                width: 26px;
+            }
+
+            &--twt {
+                width: 29px;
+            }
+
+            &--yt {
+                width: 32px;
+            }
+
+        }
+
+    }
+
+    &__links {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: auto;
+        margin-top: 22px;
+        column-gap: 52px;
+        // justify-items: center;
+
+        &--box {
+
+            display: grid;
+            // padding-bottom: 15px;
+            
+            &--link {
+                // display: block;
+                color: $color-footer;
+                font-size: 14px;
+                line-height: 2.2;
+            }
+
+        }
+
+        &--box1 {
+            order: 1;
+        }
+        &--box2 {
+            order: 3;
+        }
+        &--box3 {
+            order: 2;
+        }
+        &--box4 {
+            order: 4;
+        }
+
+
+
+    }
+
+    &__button {
+
+        margin-top: 22px;
+        text-align: center;
+        
+        &--link {
+            background-color: $color-fondo;
+            color: $color-footer;
+            font-size: 14px;
+            border: 1px solid $color-footer;
+            padding: 4px 46px 5px;
+            outline: none;
+            cursor: pointer;
+        }
+
+    }
+
+    &__copyright {
+
+        width: 85%;
+        margin: auto;
+        margin-top: 22px;
+
+        &--text {
+            text-align: center;
+            color: $color-blanco;
+            font-size: 12px;
+            line-height: 157%;
+            padding-bottom: 7.5px;
+        }
+
+    }
+
+}

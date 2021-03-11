@@ -28,6 +28,15 @@
 
         height: 401px;
 
+        &__container {
+            column-gap: 48px;
+
+            &--link {
+                font-size: 16.5px;
+            }
+
+        }
+
     }
 
 }
@@ -37,6 +46,15 @@
     .main {
 
         height: 420px;
+
+        &__container {
+            column-gap: 60px;
+
+            &--link {
+                font-size: 17px;
+            }
+
+        }
 
     }
 

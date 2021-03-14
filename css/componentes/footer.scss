@@ -108,3 +108,201 @@
     }
 
 }
+
+@media all and (min-width: 375px) {
+
+    .footer {
+
+        &__copyright {
+            width: 90%;
+        }
+
+    }
+
+}
+
+@media all and (min-width: 414px) {
+
+    .footer {
+
+        &__social {
+
+            &--logo {
+
+                &--fb {
+                    width: 29px;
+                }
+    
+                &--ins {
+                    width: 28px;
+                }
+    
+                &--twt {
+                    width: 31px;
+                }
+    
+                &--yt {
+                    width: 34px;
+                }
+    
+            }
+
+        }
+
+        &__links {
+
+            width: 85%;
+            column-gap: 65px;
+
+            &--box {
+
+                &--link {
+                    line-height: 2.4;
+                }
+
+            }
+
+        }
+
+        &__button {
+
+            &--link {
+                font-size: 14.5px;
+                padding: 4px 50px 5px;
+            }
+
+        }
+
+        &__copyright {
+            
+            width: 88%;
+
+            &--text {
+                font-size: 13px;
+            }
+
+        }
+
+    }
+
+}
+
+@media all and (min-width: 425px) {
+
+    .footer {
+
+        &__copyright {
+
+            width: 78%;
+
+        }
+
+    }
+
+}
+
+@media all and (min-width: 768px) {
+
+    .footer {
+
+        &__social {
+
+            column-gap: 42px;
+
+            &--logo {
+
+                &--fb {
+                    width: 32px;
+                }
+    
+                &--ins {
+                    width: 30px;
+                }
+    
+                &--twt {
+                    width: 33px;
+                }
+    
+                &--yt {
+                    width: 36px;
+                }
+    
+            }
+
+        }
+
+        &__links {
+
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            column-gap: 0;
+
+            &--box {
+
+                &--link {
+                    font-size: 15px;
+                }
+
+            }
+
+            &--box2 {
+                order: 2;
+            }
+            &--box3 {
+                order: 3;
+            }
+
+        }
+
+        &__button {
+
+            &--link {
+                font-size: 18px;
+                font-weight: 600;
+                padding: 11px 98px;
+            }
+
+        }
+
+        &__copyright {
+
+            &--text {
+                font-size: 16px;
+            }
+
+        }
+
+    }
+
+}
+
+@media all and (min-width: 1024px) {
+
+    .footer {
+
+        &__links {
+
+            &--box {
+
+                &--link {
+                    font-size: 15.25px;
+                }
+
+            }
+
+        }
+
+        
+    
+
+        &__copyright {
+
+            &--text {
+                font-size: 17px;
+            }
+
+        }
+
+    }
+
+}

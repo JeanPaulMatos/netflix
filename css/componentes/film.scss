@@ -129,6 +129,8 @@
 
     .film {
 
+        margin-top: -45px;
+
         &__serie {
 
 
@@ -191,6 +193,8 @@
 @media all and (min-width: 414px) {
 
     .film {
+    
+        margin-top: -50px;
 
         &__serie {
 
@@ -281,6 +285,28 @@
 
         }
 
+
+    }
+
+}
+
+@media all and (min-width: 768px) {
+
+    .film {
+
+        display: none;
+
+        // &__serie {
+        //     display: none;
+        // }
+
+        // &__category {
+        //     display: none;
+        // }
+
+        // &__container {
+        //     display: none;
+        // }
 
     }
 

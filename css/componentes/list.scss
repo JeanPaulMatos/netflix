@@ -1,4 +1,4 @@
-$calc: 35px;
+$calc: 12%;
 .list,
 .continue,
 .originals,
@@ -23,8 +23,7 @@ $calc: 35px;
         &--previous,
         &--after {
 
-            display: none   ;
-            // visibility: hidden;
+            display: none;
             position: absolute;
             border: none;
             width: 10px;
@@ -62,7 +61,6 @@ $calc: 35px;
     .glider-dots {
         visibility: hidden;
         justify-content: flex-end;
-        margin-right: 20px;
     }
 
     .glider-dot {
@@ -109,6 +107,8 @@ $calc: 35px;
     .youth,
     .comedy {
 
+        padding-left: 13.5px;
+
         &--title {
             font-size: 17.5px;
         }
@@ -129,6 +129,7 @@ $calc: 35px;
     .comedy {
 
         margin-top: 26.5px;
+        padding-left: 15px;
 
         &--title {
             font-size: 18.5px;
@@ -149,13 +150,20 @@ $calc: 35px;
     .youth,
     .comedy {
 
+        margin-top: 28px;
+        padding: 0 36px;
+
+        &--title {
+            font-size: 20px;
+        }
+
         &__container {
 
             &--previous,
             &--after {
-                display: block !important;
-                width: 25px;
-                // visibility: visible !important;
+                display: grid;
+                width: 12px;
+                outline: none;
             }
 
         }
@@ -164,7 +172,6 @@ $calc: 35px;
     .glider-dots {
         visibility: visible !important;
         justify-content: flex-end;
-        margin-right: 20px;
     }
 
     .glider-track {
@@ -172,7 +179,150 @@ $calc: 35px;
         column-gap: 6px;
         overflow: hidden;
     }
+ 
+    .glider-dot:last-child {
+        margin-right: 0;
+    }
     
 
 }
 
+@media all and (min-width: 834px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+
+        &__container {
+    
+            &--previous,
+            &--after {
+                width: 13.5px;
+            }
+    
+        }
+
+    }
+
+
+}
+
+@media all and (min-width: 1024px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+        
+        margin-top: 30px;
+        padding: 0 48px;
+
+        &--title {
+            font-size: 22px;
+        }
+
+        &__container {
+    
+            &--previous,
+            &--after {
+                width: 15px;
+            }
+    
+        }
+
+    }
+
+}
+
+@media all and (min-width: 1280px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+        
+        padding: 0 60px;
+
+        &--title {
+            font-size: 24px;
+        }
+
+        &__container {
+    
+            &--previous,
+            &--after {
+                width: 17px;
+            }
+    
+        }
+
+    }
+
+}
+
+@media all and (min-width: 1440px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+
+        &__container {
+    
+            &--previous,
+            &--after {
+                width: 19px;
+            }
+    
+        }
+
+    }
+
+}
+
+@media all and (min-width: 1920px) {
+
+    .list,
+    .continue,
+    .originals,
+    .tendencias,
+    .worthy,
+    .dramas,
+    .youth,
+    .comedy {
+
+        margin-top: 32px;
+
+        &--title {
+            font-size: 26px;
+        }
+
+        &__container {
+    
+            &--previous,
+            &--after {
+                width: 21px;
+            }
+    
+        }
+
+    }
+
+}

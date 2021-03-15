@@ -69,9 +69,10 @@
 
     .main {
 
-        background-image: url("../images/desktop/strangers-portada.png");
+        background-image: url("../images/desktop/stranger-portada.jpg");
         height: 505px;
         padding: 0 36px;
+        background-position: 0;
 
         &__container {
 
@@ -385,7 +386,7 @@
     .main {
         
         // height: 800px;
-        background-position: 0 -190px;
+        background-position: 0 -100px;
 
         &__desktop {
 

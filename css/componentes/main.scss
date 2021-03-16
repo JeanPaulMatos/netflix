@@ -1,10 +1,11 @@
 .main {
     
-    background-image: url("../images/mobile/strangers-portada.png");
+    background-image: url("../images/mobile/stranger-portada.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 360px;
+    background-position-y: 0;
 
     &__container {
 
@@ -61,6 +62,22 @@
 
         }
 
+    }
+
+}
+
+@media all and (min-width: 414px) {
+
+    .main {
+        background-position-y: -30px;
+    }
+
+}
+
+@media all and (min-width: 600px) {
+
+    .main {
+        background-position-y: -130px;
     }
 
 }
